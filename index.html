@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--==================== UNICONS ====================-->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+        
+        <!--==================== SWIPER CSS ====================-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+        
+        <!--==================== CSS ====================-->
+        <link rel="stylesheet" href="assets/css/style.css">
+
+        <!-- favicons
+	    ================================================== -->
+	    <link rel="icon" type="image/png" href="">
+
+        <title>Benjamin</title>
+    </head>
+    <body onload="myFunction()">
+        <div id="loading"></div>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="" class="nav_logo">Benjamin</a>
+                <div class="nav_menu" id="nav-menu">
+                    <ul class="nav_list grid">
+                        <li class="nav_item">
+                            <a href="#home" class="nav_link active-link">
+                                <i class="uil uil-estate nav_icon"></i> start
+                            </a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#about" class="nav_link">
+                                <i class="uil uil-user nav_icon"></i> Infos
+                            </a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#skills" class="nav_link">
+                                <i class="uil uil-file-alt nav_icon"></i> Fähigkeiten
+                            </a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#services" class="nav_link">
+                                <i class="uil uil-briefcase-alt nav_icon"></i> Werdegang
+                            </a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#portfolio" class="nav_link">
+                                <i class="uil uil-scenery nav_icon"></i> projekt
+                            </a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#contact" class="nav_link">
+                                <i class="uil uil-message nav_icon"></i> Nachricht
+                            </a>
+                        </li>
+                    </ul>
+                    <i class="uil uil-times nav_close" id="nav-close"></i>
+                </div>
+                <div class="nav_btns">
+                    <!-- Theme change button -->
+                    <i class="uil uil-moon change-theme" id="theme-button">
+                    </i>
+                    <div class="nav_toggle" id="nav-toggle">
+                        <i class="uil uil-apps"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!--==================== MAIN ====================-->
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home section" id="home">
+                <div class="home_container container grid">
+                    <div class="home_content grid">
+                        <div class="home_social">
+                            <a href="https://www.linkedin.com/in/benjamin-tanner-a5207a244" id="home-social-icon" target="_blank">
+                                <i class="uil uil-linkedin-alt"></i>
+                            </a>
+                            <a href="https://www.instagram.com/_benjamindev_/" id="home-social-icon" target="_blank">
+                                <i class="uil uil-instagram-alt"></i>
+                            </a>
+                            <a href="https://github.com/Spectremein" id="home-social-icon" target="_blank">
+                                <i class="uil uil-github-alt"></i>
+                            </a>
+                        </div>
+                        <div class="home_img">
+                            <svg class="home_blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <mask id="mask0" mask-type="alpha">
+                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                                    130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                                    97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                                    0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                                </mask>
+                                <g mask="url(#mask0)">
+                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                    165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                                    129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                                    -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                                    <image class="home_blob_img" x='' y='' href="assets/imag/beni.jpg"/>
+                                </g>
+                            </svg>
+                        </div>
+                        <div class="home_data">
+                            <h1 class="home_title">
+                                Benjamin Tanner <span class="home_title_name">Frontend Developer</span> 
+                            </h1>
+                            <div class="intro">
+                                <h3 class="home_subtitle">
+                                    ich bin 
+                                </h3>
+                                <h3 class="typing home_subtitle"></h3>
+                            </div>
+                            <p class="home_description">
+                                Hallo ich bin Benjamin 22 jahre alt und komme aus der schweiz. Ich programmiere schon seit 5 Jahren.
+                            </p>
+                            <a href="#contact" class="button home_button button_flex">
+                                schreibe mir <i class="uil uil-message button_icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== ABOUT ====================-->
+            <section class="about section" id="about">
+                <h2 class="section_title">
+                Infos
+                </h2>
+                <span class="section_subtitle">Über mich</span>
+                <div class="about_container container grid">
+                    <img src="assets/imag/beni.jpg" alt="" class="about_img">
+                    <div class="about_data">
+                            <span class="about_name">hallo ich bin Benjamin</span>
+                            <p class="about_description">
+                                Ich Programmier im moment html, css und JavaScript. Ich kann aber auch mit php, MySQL umgehen.
+                            </p>
+                        <div class="about_buttons">
+                            <a href="assets/pdf/Lebenslauf.benjamin.tanner.pdf" class="button button_flex">Download CV
+                            <i class="uil uil-download-alt button_icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== SKILLS ====================-->
+            <section class="skills section" id="skills">
+                <h2 class="section_title">
+                    Fähigkeiten
+                </h2>
+                <span class="section_subtitle">
+                    meine skills
+                </span>
+                <div class="skills_container container grid">
+                    <div>
+                        <!-- SKILL 1 -->
+                        <div class="skills_content skills_open">
+                            <div class="skills_header">
+                                <i class="uil uil-brackets-curly skills_icon"></i>
+                                <div>
+                                    <h1 class="skills_title">Frontend Skills</h1>
+                                </div>
+                                <i class="uil uil-angle-up skills_arrow"></i>
+                            </div>
+
+                            <div class="skills_list grid">
+                                <div class="skills_data">
+                                    <div class="skills_names">
+                                        <i class='bx bxl-html5 skills_icon'></i>
+                                        <span class="skills_name">HTML5</span>
+                                    </div>
+                                    <div class="skills_bar skills_html">
+        
+                                    </div>
+                                    <div>
+                                        <span class="skills_percentage">95%</span>
+                                    </div>
+                                </div>
+                                <div class="skills_data">
+                                    <div class="skills_names">
+                                        <i class='bx bxl-css3 skills_icon'></i>
+                                        <span class="skills_name">CSS3</span>
+                                    </div>
+                                    <div class="skills_bar skills_css">
+        
+                                    </div>
+                                    <div>
+                                        <span class="skills_percentage">90%</span>
+                                    </div>
+                                </div>
+                                <div class="skills_data">
+                                    <div class="skills_names">
+                                        <i class='bx bxl-bootstrap skills_icon'></i>
+                                        <span class="skills_name">Bootstrap</span>
+                                    </div>
+                                    <div class="skills_bar skills_bootstrap">
+        
+                                    </div>
+                                    <div>
+                                        <span class="skills_percentage">85%</span>
+                                    </div>
+                                </div>
+                                <div class="skills_data">
+                                    <div class="skills_names">
+                                        <i class='bx bxl-javascript skills_icon'></i>
+                                        <span class="skills_name">JavaScript</span>
+                                    </div>
+                                    <div class="skills_bar skills_js">
+        
+                                    </div>
+                                    <div>
+                                        <span class="skills_percentage">75%</span>
+                                    </div>
+                                </div>
+                                <div class="skills_data">
+                                    <div class="skills_names">
+                                        <i class='bx bxl-vuejs skills_icon'></i>
+                                        <span class="skills_name">Vue JS</span>
+                                    </div>
+                                    <div class="skills_bar skills_vue">
+        
+                                    </div>
+                                    <div>
+                                        <span class="skills_percentage">55%</span>
+                                    </div>
+                                </div>
+                                <div class="skills_data">
+                                    <div class="skills_names">
+                                        <i class='bx bxl-vuejs skills_icon'></i>
+                                        <span class="skills_name">VueX</span>
+                                    </div>
+                                    <div class="skills_bar skills_vuex">
+        
+                                    </div>
+                                    <div>
+                                        <span class="skills_percentage">50%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                         <!-- SKILL 2 -->
+                         <div class="skills_content skills_open"> 
+                            <div class="skills_header">
+                                <i class="uil uil-server-network skills_icon"></i>
+                                <div>
+                                    <h1 class="skills_title">Backend & Others</h1>
+                                </div>
+                                <i class="uil uil-angle-up skills_arrow"></i>
+                            </div>
+
+                            <div class="skills_list grid">
+                                <div class="skills_data">
+                                    <div class="skills_names">
+                                        <i class='bx bxs-cube-alt skills_icon'></i>
+                                        <span class="skills_name">C/C++</span>
+                                    </div>
+                                    <div class="skills_bar skills_c">
+        
+                                    </div>
+                                    <div>
+                                        <span class="skills_percentage">85%</span>
+                                    </div>
+                                </div>
+                                <div class="skills_data">
+                                    <div class="skills_names">
+                                        <i class='bx bx-code skills_icon'></i>
+                                        <span class="skills_name">PHP</span>
+                                    </div>
+                                    <div class="skills_bar skills_php">
+        
+                                    </div>
+                                    <div>
+                                        <span class="skills_percentage">80%</span>
+                                    </div>
+                                </div>
+                                <div class="skills_data">
+                                    <div class="skills_names">
+                                        <i class='bx bxs-ghost skills_icon'></i>
+                                        <span class="skills_name">Laravel</span>
+                                    </div>
+                                    <div class="skills_bar skills_laravel">
+        
+                                    </div>
+                                    <div>
+                                        <span class="skills_percentage">65%</span>
+                                    </div>
+                                </div>
+                                <div class="skills_data">
+                                    <div class="skills_names">
+                                        <i class='bx bxs-data skills_icon'></i>
+                                        <span class="skills_name">Mysql</span>
+                                    </div>
+                                    <div class="skills_bar skills_sql">
+        
+                                    </div>
+                                    <div>
+                                        <span class="skills_percentage">75%</span>
+                                    </div>
+                                </div> 
+                                <div class="skills_data">
+                                    <div class="skills_names">
+                                        <i class='bx bx-shape-circle skills_icon'></i>
+                                        <span class="skills_name">Rest Api</span>
+                                    </div>
+                                    <div class="skills_bar skills_api">
+        
+                                    </div>
+                                    <div>
+                                        <span class="skills_percentage">60%</span>
+                                    </div>
+                                </div> 
+                                <div class="skills_data">
+                                    <div class="skills_names">
+                                        <i class='bx bxl-github skills_icon'></i>
+                                        <span class="skills_name">Github</span>
+                                    </div>
+                                    <div class="skills_bar skills_github">
+        
+                                    </div>
+                                    <div>
+                                        <span class="skills_percentage">85%</span>
+                                    </div>
+                                </div>
+                                <div class="skills_data">
+                                    <div class="skills_names">
+                                        <i class='bx bxl-microsoft skills_icon'></i>
+                                        <span class="skills_name">MS Office</span>
+                                    </div>
+                                    <div class="skills_bar skills_ms">
+        
+                                    </div>
+                                    <div>
+                                        <span class="skills_percentage">95%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== QUALIFICATION ====================-->
+            <section class="qualification section">
+                <h2 class="section_title">Werdegang</h2>
+                <span class="section_subtitle">Meine skills</span>
+                <div class="qualification_container container">
+                    <div class="qualification_tabs">
+                        <div class="qualification_button button_flex qualification_active" data-target="#education">
+                            <i class="uil uil-graduation-cap qualification_icon">
+                                Kurse
+                            </i>
+                        </div>
+                        <div class="qualification_button button_flex" data-target="#work">
+                            <i class="uil uil-briefcase-alt qualification_icon">
+                                Berufliches
+                            </i>
+                        </div>
+                    </div>
+                    <div class="qualification_section">
+                        <!-- Qualification Content 1 -->
+                        <div class="qualification_content qualification_active" data-content id="education">
+                            <!-- Qualification 1 -->
+                            <div class="qualification_data">
+                                <div>
+                                    <h3 class="qualification_title">css</h3>
+                                    <span class="qualification_subtitle">css kurs in Linkedin</span>
+                                    <div class="qualification_calender">
+                                        <i class="uil uil-calender-alt"></i>
+                                        2019 - 2020
+                                    </div>
+                                </div>
+                                <div>
+                                    <span class="qualification_rounder"></span>
+                                    <span class="qualification_line"></span>
+                                </div>
+                            </div> 
+                            <!-- Qualification 2 -->
+                            <div class="qualification_data">
+                                <div></div>
+                                <div>
+                                    <span class="qualification_rounder"></span>
+                                    <span class="qualification_line"></span>
+                                </div>
+                                <div>
+                                    <h3 class="qualification_title">html</h3>
+                                    <span class="qualification_subtitle">Html kurs in Linkedin</span>
+                                    <div class="qualification_calender">
+                                        <i class="uil uil-calender-alt"></i>
+                                        2019 - 2020
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Qualification 3 -->
+                            <div class="qualification_data">
+                                <div>
+                                    <h3 class="qualification_title">js</h3>
+                                    <span class="qualification_subtitle">JavaScript kurs auf Linkedin</span>
+                                    <div class="qualification_calender">
+                                        <i class="uil uil-calender-alt"></i>
+                                        2020 - 2021
+                                    </div>
+                                </div>
+                                <div>
+                                    <span class="qualification_rounder"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Qualification Content 2 -->
+                        <div class="qualification_content" data-content id="work">
+                            <!-- Qualification 1 -->
+                            <div class="qualification_data">
+                                <div>
+                                    <h3 class="qualification_title">Silea </h3>
+                                    <span class="qualification_subtitle">Angestellter </span>
+                                    <div class="qualification_calender">
+                                        <i class="uil uil-calender-alt"></i>
+                                        2 jahre
+                                    </div>
+                                </div>
+                                <div>
+                                    <span class="qualification_rounder"></span>
+                                    <span class="qualification_line"></span>
+                                </div>
+                            </div>
+                            <!-- Qualification 2 -->
+                            <div class="qualification_data">
+                                <div></div>
+                                <div>
+                                    <span class="qualification_rounder"></span>
+                                </div>
+                                <div>
+                                    <h3 class="qualification_title">Eigenständiger Dev</h3>
+                                    <span class="qualification_subtitle">steffisburg</span>
+                                    <div class="qualification_calender">
+                                        <i class="uil uil-calender-alt"></i>
+                                        1 jahr
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== SERVICES ====================-->
+            <section class="services section" id="services">
+                <h2 class="section_title">Angebote</h2>
+                <span class="section_subtitle">schlag zu</span>
+
+                <div class="services_container container grid">
+                    <!-- Services 1 -->
+                    <div class="services_content">
+                        <div>
+                            <i class="uil uil-web-grid services_icon"></i>
+                            <h3 class="services_title">
+                                Web <br> Design
+                            </h3>
+                        </div>
+                        <span class="button button_flex button_small button_link services_button">
+                            View More
+                            <i class="uil uil-arrow-right button_icon"></i>
+                        </span>
+                        <div class="services_modal">
+                            <div class="services_modal_content">
+                                <h4 class="services_modal_title">
+                                    Web<br> Design
+                                </h4>
+                                <i class="uil uil-times services_modal_close"></i>
+                                <ul class="services_modal_services grid">
+                                    <li class="services_modal_service">
+                                        <i class="uil uil-check-circle services_modal_icon"></i>
+                                        <p>Mobile Freundlich</p>
+                                    </li>
+                                    <li class="services_modal_service">
+                                        <i class="uil uil-check-circle services_modal_icon"></i>
+                                        <p>100% Sicherheit </p>
+                                    </li>
+                                    <li class="services_modal_service">
+                                        <i class="uil uil-check-circle services_modal_icon"></i>
+                                        <p>sehr Freundlich</p>
+                                    </li>
+                                    <li class="services_modal_service">
+                                        <i class="uil uil-check-circle services_modal_icon"></i>
+                                        <p>Gutes Design </p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>   
+                    <!-- Services 2 -->
+                    <div class="services_content">
+                        <div>
+                            <i class="uil uil-arrow services_icon"></i>
+                            <h3 class="services_title">
+                                Web <br> Development
+                            </h3>
+                        </div>
+                        <span class="button button_flex button_small button_link services_button">
+                            View More
+                            <i class="uil uil-arrow-right button_icon"></i>
+                        </span>
+                        <div class="services_modal">
+                            <div class="services_modal_content">
+                                <h4 class="services_modal_title">
+                                    Web <br> Development
+                                </h4>
+                                <i class="uil uil-times services_modal_close"></i>
+                                <ul class="services_modal_services grid">
+                                    <li class="services_modal_service">
+                                        <i class="uil uil-check-circle services_modal_icon"></i>
+                                        <p>Hochgradig anpassbar</p>
+                                    </li>
+                                    <li class="services_modal_service">
+                                        <i class="uil uil-check-circle services_modal_icon"></i>
+                                        <p>Sehr einfach zu bearbeiten</p>
+                                    </li>
+                                    <li class="services_modal_service">
+                                        <i class="uil uil-check-circle services_modal_icon"></i>
+                                        <p>Single-Page-Anwendungen (SPA)</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>  
+                </div>
+            </section>
+
+            <!--==================== PORTFOLIO ====================-->
+            <section class="portfolio section" id="portfolio">
+                <h2 class="section_title">projekte</h2>
+                <p class="section_subtitle"><b> meine projekte</b></p>
+                <div class="portfolio_container container swiper-container">
+                    <div class="swiper-wrapper">
+                        <!-- POrtfolio 1 -->
+                        <div class="portfolio_content grid swiper-slide">
+                            <div class="portfolio_img">
+                                <a title="click here for Source Code" href="https://github.com/mhmamun6316/inventory_management_system" target="_blank"><img src="assets/imag/portfolio1.jpg" alt="This zooms-in really well and smooth"></a>
+                            </div>
+                            <div class="portfolio_data">
+                                <h3 class="portfolio_title">Inventory Management System(POS)</h3>
+                                <p class="portfolio_description">SPA-Webanwendung mit laravel, vue js & rest api..
+                                </p>
+                                <a title="project video" href="https://github.com/spectremein" target="_blank" class="button button_flex button_small portfolio_button">
+                                    Anschauen
+                                    <i class="uil uil-arrow-right button_icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- POrtfolio 2 -->
+                        <div class="portfolio_content grid swiper-slide">
+                            <div class="portfolio_img">
+                                <a title="click here for Source Code" href="https://github.com/spectremein" target="_blank"><img src="assets/imag/portfolio2.jpg" alt="This zooms-in really well and smooth"></a>
+                            </div>
+                            <div class="portfolio_data">
+                                <h3 class="portfolio_title">E-Commerce Website</h3>
+                                <p class="portfolio_description"> E-Commerce-Website mit Laravel 6 mit Admin-Dashboard.
+                                </p>
+                                <a href="" target="_blank" class="button button_flex button_small portfolio_button">
+                                    Anschauen
+                                    <i class="uil uil-arrow-right button_icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- POrtfolio 3 -->
+                        <div class="portfolio_content grid swiper-slide">
+                            <div class="portfolio_img">
+                                <a title="click here for Source Code" href="https://github.com/spectremein" target="_blank"> <img src="assets/imag/portfolio3.jpg" alt="This zooms-in really well and smooth"></a>
+                            </div>
+                            <div class="portfolio_data">
+                                <h3 class="portfolio_title">Modern Website</h3>
+                                <p class="portfolio_description">WER Service Agentur Landing Page Design mit HTML, CSS und Bootstrap
+                                </p>
+                                <a title="live demo" href="" target="_blank" class="button button_flex button_small portfolio_button">
+                                    Anschauen
+                                    <i class="uil uil-arrow-right button_icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Add arrows -->
+                    <div class="swiper-button-next">
+                        <i class="uil uil-angle-right-b swiper-portfolio-icon">
+                        </i>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <i class="uil uil-angle-left-b swiper-portfolio-icon">             
+                        </i>
+                    </div>
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
+                </div>
+            </section>
+
+            <!--==================== PROJECT IN MIND ====================-->
+            <section class="project section">
+                <div class="project_bg">
+                    <div class="div project_container container grid">
+                        <div class="project_data">
+                            <h2 class="project_title">Du brauchst hilfe</h2>
+                            <p class="project_description">Melde dich und ich gebe 30% Rabatt</p>
+                            <a href="#contact" class="button button_flex button_white">
+                               schreibe info@debenjamin.ch
+                                <i class="uil uil-message project_icon button_icon"></i>
+                            </a>
+                        </div>
+                        <img src="assets/imag/project.png" alt="" class="project_img">
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== TESTIMONIAL ====================-->
+           
+
+            <!--==================== CONTACT ME ====================-->
+            <section class="contact section" id="contact">
+                <h2 class="section_title">Screibe mir</h2>
+                <span class="section_subtitle">danke!</span>
+
+                <div class="contact_container container grid">
+                    <div>
+                        <div class="contact_information">
+                            <i class="uil uil-phone contact_icon"></i>
+                            <div>
+                                <h3 class="contact_title">Call Me</h3>
+                                <span class="contact_subtitle">+41 79 604 68 89</span>
+                            </div>
+                        </div>
+                        <div class="contact_information">
+                            <i class="uil uil-envelope-alt contact_icon"></i>
+                            <div>
+                                <h3 class="contact_title">Email</h3>
+                                <span class="contact_subtitle">info@devbenjamin.ch</span>
+                            </div>
+                        </div>
+                        <div class="contact_information">
+                            <i class="uil uil-location-point contact_icon"></i>
+                            <div>
+                                <h3 class="contact_title">Ordschaft</h3>
+                                <span class="contact_subtitle">schweitz - steffisburg</span>
+                            </div>
+                        </div>
+                    </div>
+                    <form action="" class="contact_form grid">
+                        <div class="contact_inputs grid">
+                          <div class="contact_content">
+                            <label for="" class="contact_label">Name</label>
+                            <input type="text" class="contact_input">
+                          </div> 
+                          <div class="contact_content">
+                            <label for="" class="contact_label">Email</label>
+                            <input type="email" class="contact_input">
+                          </div>        
+                        </div>
+
+                        <div class="contact_content">
+                            <label for="" class="contact_label">Nachricht</label>
+                            <textarea class="contact_input" name="" id="" cols="0" rows="7"></textarea>
+                        </div>
+
+                        <div>
+                            <a href="#" class="button button_flex">
+                                Sende Nachricht
+                                <i class="uil uil-message button_icon"></i>
+                            </a>
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer">
+            <div class="footer_bg">
+                <div class="footer_container container grid">
+                    <div class="footer_main">
+                        <h1 class="footer_title">benjamin</h1>
+                        <span class="footer_subtitle">FullStack Web Developer</span>
+                    </div>
+
+                    <ul class="footer_links">
+                        <li>
+                            <a href="#services" class="footer_link">Angebot</a>
+                        </li>
+                        <li>
+                            <a href="#portfolio" class="footer_link">Projekt</a>
+                        </li>
+                        <li>
+                            <a href="http://devbenjamin.ch/assets/impressum.html" class="footer_link">impressum</a>
+                        </li>
+                    </ul>
+
+                    <div class="footer_socials">
+                        <a href="https://www.instagram.com/_benjamindev_/" target="_blank" class="footer_social">
+                            <i class="uil uil-instagram-alt"></i>
+                        </a>
+
+                        <a href="https://www.linkedin.com/in/benjamin-tanner-a5207a244" target="_blank" class="footer_social">
+                            <i class="uil uil-linkedin"></i>
+                        </a>
+
+                        <a href="https://github.com/Spectremein" target="_blank" class="footer_social">
+                            <i class="uil uil-github"></i>
+                        </a>
+                    </div>
+                </div>
+                <p class="footer_copy">&#169;benjamin tanner. All rights reserved by</p>
+            </div>
+        </footer>
+        
+        <!--==================== SCROLL TOP ====================-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="uil uil-arrow-up scrollup_icon"></i>
+        </a>
+
+        <!--==================== SCROLL REVEAL JS ====================-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--==================== SWIPER JS ====================-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!--==================== MAIN JS ====================-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
